@@ -1,9 +1,9 @@
 # 思路：按索引顺序取数,利用for嵌套判断剩余数是否等于target减指定数,最后按顺序返回索引
 # 时间复杂度：O(n^2)  空间复杂度：O(1)
 # 坑：一开始无思路看题解,实现过程需注意语句缩进以及range函数
-
+from typing import List
 class Solution(object):
-    def twoSum(self, nums, target):
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
         """
         :type nums: List[int]
         :type target: int

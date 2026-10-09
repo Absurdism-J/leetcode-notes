@@ -8,7 +8,7 @@ Each solution file carries three comment lines at the top: approach, complexity,
 
 | # | Problem | Difficulty | Key Idea |
 |---|---------|------------|----------|
-| 1 | Two Sum | Easy       | Hash map |
+| 1 | Two Sum | Easy | Hash map, brute O(n²) → hashmap O(n) |
 
 ## Conventions
 
